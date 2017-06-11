@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hdlmx archive">
+    <output-path>$PROJECT_DIR$/out/artifacts/hdlmx_archive</output-path>
+    <root id="archive" name="hdlmx archive.war">
+      <element id="artifact" artifact-name="hdlmx" />
+    </root>
+  </artifact>
+</component>
