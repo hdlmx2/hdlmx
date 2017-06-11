@@ -3,6 +3,12 @@
     <output-path>$PROJECT_DIR$/out/artifacts/hdlmx_archive</output-path>
     <root id="archive" name="hdlmx archive.war">
       <element id="artifact" artifact-name="hdlmx" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-java-6.0.6" />
+          <element id="library" level="project" name="mybatis-3.4.2" />
+        </element>
+      </element>
     </root>
   </artifact>
 </component>
